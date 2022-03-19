@@ -74,3 +74,69 @@ footer {
   text-decoration: none;
   color: whitesmoke;
 }
+
+/* KEVIN EMERY */
+
+.nav-bar {
+  display: flex;
+  width: 100%;
+  height: 15vh;
+  background-color: #243063;
+  color: white;
+  box-shadow: 0px 100px;
+}
+
+.nav-item {
+  display: flex;
+  height: 15vh;
+  font-size: 3.5rem;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.nav-item:hover {
+  color: #3a4d9c;
+}
+
+.nav-left {
+  float: left;
+  width: 50%;
+}
+
+.nav-item-left {
+  padding-left: 5%;
+  font-weight: bold;
+  text-shadow: 1px 5px 0px rgba(0,0,0,0.2);
+  width: 25%;
+}
+
+.nav-right {
+  width: 50%;
+}
+
+.nav-item-right {
+  float: right;
+  margin-right: 5%;
+  width: 25%;
+  font-size: 2rem;
+  text-shadow: 1px 3px 0px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.small-hr {
+  width: 50%;
+  border: 2px solid #161e3d;
+  border-radius: 5%;
+}
+
+.large-hr {
+  width: 100%;
+  border: 3px solid #161e3d;
+  border-radius: 5%;
+}
+
+.rounded-img {
+  border-radius: 15%;
+}
