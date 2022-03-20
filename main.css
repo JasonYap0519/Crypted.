@@ -9,8 +9,7 @@ body {
   margin: 0;
 }
 
-footer {
-}
+
 
 /* JASON YAP */
 
@@ -139,4 +138,38 @@ footer {
 
 .rounded-img {
   border-radius: 15%;
+}
+
+/* Kyle Sargeant */
+
+.footer {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  flex-flow: row wrap;
+  width: 100%;
+  height: 40vh;
+  align-content: center;
+  padding: 2vh 5rem;
+  color: whitesmoke;
+  background-color: #243063;
+}
+
+#footer_crypto, #footer_about, #footer_NFT, #footer_signup {
+  justify-self: center;
+}
+
+/* # for div id's . for classes id */
+#footer_crypto_ul ul, #footer_NFT_ul ul {
+  list-style: none;
+  
+}
+
+#footer_crypto_ul ul li a, #footer_NFT_ul ul li a {
+  color: whitesmoke;
+  text-decoration: none;
+  text-align: center;
+}
+
+#footer_crypto h3, #footer_NFT h3{
+  text-align: center;
 }
