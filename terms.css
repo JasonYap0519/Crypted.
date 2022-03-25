@@ -1,0 +1,43 @@
+.content {
+    background-color: #1e2852;
+    color: whitesmoke;
+    width: 100%;
+}
+
+.title {
+    text-align: center;
+    margin-top: 0;
+    text-decoration: underline;
+}
+
+.terms {
+    width: 75%;
+    margin: 0 auto;
+    border: 1px solid whitesmoke;
+    border-collapse: collapse;
+}
+
+.term {
+    text-align: center;
+    width: 33%;
+    padding: 5px;
+    border: 1px solid whitesmoke;
+}
+
+.definition {
+    padding: 5px; 
+    border: 1px solid whitesmoke;
+}
+
+@media screen and (max-width: 1024px) {
+    .terms {
+        width: 512px;
+    }
+}
+
+.definition_source{
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+    color: whitesmoke;
+}
