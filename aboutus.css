@@ -1,5 +1,4 @@
 h1,
-h2,
 p {
   margin: 0;
 }
@@ -44,6 +43,10 @@ h4 {
 
 .member {
   flex-basis: 30%;
+}
+
+.member-details h2 {
+  margin: 0;
 }
 
 @media screen and (max-width: 768px) {
