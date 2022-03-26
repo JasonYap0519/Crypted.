@@ -1,0 +1,179 @@
+.nav-bar {
+  display: flex;
+  width: 100%;
+  height: 15vh;
+  background-color: #243063;
+  color: white;
+  box-shadow: 0px 100px;
+}
+
+.nav-item {
+  display: flex;
+  height: 15vh;
+  font-size: 3.5rem;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.nav-item:hover {
+  color: #3a4d9c;
+}
+
+.nav-left {
+  float: left;
+  width: 33%;
+}
+
+.nav-item-left {
+  padding-left: 5%;
+  font-weight: bold;
+  text-shadow: 1px 5px 0px rgba(0, 0, 0, 0.2);
+  width: 25%;
+}
+
+.nav-right {
+  display: flex;
+  flex-direction: row;
+  width: 66%;
+}
+
+.nav-item-right {
+  float: right;
+  margin-left: 5%;
+  width: 33%;
+  font-size: 2rem;
+  text-shadow: 1px 3px 0px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.blog {
+  display: grid;
+  width: 100%;
+  background-color: #161e3d;
+}
+
+.blog-header{
+  display: flex;
+  width: 100%;
+  height: 342px;
+  background-image: url("../Crypted/images/Dark-Blue_blog-header.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+ 
+ 
+}
+
+#blog-header-text{
+  font-size: xxx-large;
+  color: whitesmoke
+}
+
+
+.blog-content{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  
+}
+#blog-block1, #blog-block3{
+  display: flex;
+  background-color: #161e3d;
+  width: 20%;
+}
+#blog-block2{
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+  width: 60%;
+  padding: 2%;
+}
+
+#blog-sharebar{
+  display: flex;
+  width: 13vw;
+  height: 5vh;
+  background-color: darkgrey;
+  position: sticky;
+  top: 0px;
+  align-items: center;
+  font-size: x-large;
+}
+
+#blog-text{
+  font-size: x-large;
+  
+}
+
+
+.fa {
+  padding: 8px;
+  font-size: 30px;
+  width: 50px;
+  height: 5vh;
+  
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+/* linkedin */
+.fa-linkedin {
+  background: #07518a;
+  color: white;
+}
+
+/* Twitter */
+.fa-reddit {
+  background: #ff3300;
+  color: white;
+}
+
+@media screen and (max-width: 938px) {
+  .nav-left {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+  .nav-item-right {
+    width: 100%;
+    background-color: #202a57;
+    margin-right: 0%;
+  }
+  .nav-item-left {
+    width: 100%;
+    padding-left: 0%;
+  }
+  .nav-right {
+    display: block;
+    width: 100%;
+  }
+  .nav-bar {
+    display: block;
+    width: 100%;
+    background-color: #243063;
+    color: white;
+    box-shadow: 0px 100px;
+  }
+}
