@@ -144,10 +144,12 @@ body {
     width: 100%;
     background-color: #202a57;
     margin-right: 0%;
+    height: 5%;
   }
   .nav-item-left {
     width: 100%;
     padding-left: 0%;
+    height: 10%;
   }
   .nav-right {
     display: block;
