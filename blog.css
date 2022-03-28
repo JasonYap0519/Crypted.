@@ -43,15 +43,24 @@
 }
 
 #blog-sharebar{
-  display: flex;
-  width: 13vw;
-  height: 5vh;
-  background-color: darkgrey;
+  padding-left: 8px;
+  display: inline-block;
+  height: 46px;
+  background-color: #243063;
   position: sticky;
   top: 0px;
   align-items: center;
   font-size: x-large;
+  text-align: center;
+  margin-bottom: 5px;
 }
+
+@media screen and (max-width: 1200px) {
+  #blog-sharebar{
+    width: 100%;
+  }
+}
+
 
 #blog-text{
   font-size: x-large;
@@ -62,8 +71,9 @@
 .fa {
   padding: 8px;
   font-size: 30px;
-  width: 50px;
-  height: 5vh;
+  width: 46px;
+  height: 46px;
+  margin: 0px;
   
   text-align: center;
   text-decoration: none;

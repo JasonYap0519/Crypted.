@@ -197,7 +197,7 @@ button {
 
 .dropdown-content {
   display: none;
-  /*position: absolute;*/
+  position: absolute;
   background-color: #2d3b79;
   margin: 0 auto;
   width: 100%;

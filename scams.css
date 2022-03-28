@@ -1,0 +1,37 @@
+.content {
+    background-color: #1e2852;
+    color: whitesmoke;
+    width: 100%;
+}
+
+.title {
+    text-align: center;
+    margin-top: 0;
+    text-decoration: underline;
+}
+
+.scam_box {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    justify-content: center;
+}
+
+.scam_box {
+    align-items: center;
+}
+
+.scam_box > img {
+    border-radius: 12px;
+}
+
+.scam_box > p {
+    margin: 10px 30px 10px 30px;
+}
+
+@media screen and (max-width: 1200px) {
+    .scam_box {
+        margin: 0 auto;
+    }
+}
