@@ -135,65 +135,6 @@ body {
   text-align: center;
 }
 
-@media screen and (max-width: 1200px) {
-  .nav-left {
-    display: block;
-    text-align: center;
-    width: 100%;
-  }
-  .nav-item-right {
-    width: 100%;
-    background-color: #202a57;
-    margin-right: 0%;
-    height: 5%;
-  }
-  .nav-item-left {
-    width: 100%;
-    padding-left: 0%;
-    height: 10%;
-  }
-  .nav-right {
-    display: block;
-    width: 100%;
-  }
-  .nav-bar {
-    display: block;
-    width: 100%;
-    background-color: #243063;
-    color: white;
-    box-shadow: 0px 100px;
-  }
-}
-
-.small-hr {
-  width: 50%;
-  border: 2px solid #161e3d;
-  border-radius: 5%;
-}
-
-.large-hr {
-  width: 100%;
-  border: 3px solid #161e3d;
-  border-radius: 5%;
-}
-
-.rounded-img {
-  border-radius: 1rem;
-}
-
-.text_input {
-  background-color: #324286;
-  border: 1px solid #1e2852;
-}
-
-button {
-  background-color: #4d3a81;
-  font-size: 1rem;
-  padding: 0.25rem 1.5rem;
-  border-radius: 0.5rem;
-  text-decoration: none;
-  color: whitesmoke;
-}
 
 .dropdown-content {
   display: none;
@@ -215,14 +156,82 @@ button {
 
 .dropdown-content a {
   color: whitesmoke;
-  padding: 12px 16px;
   text-decoration: none;
   display: block;
+  border: 1px solid rgb(22, 30, 61, 0.2);
 }
 
-.dropdown-content a:hover {background-color: #1e2852;}
+@media screen and (max-width: 1200px) {
+  .nav-left {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+  .nav-item-right {
+    width: 100%;
+    background-color: #202a57;
+    margin-right: 0%;
+    height: 5%;
+    border: 1px solid rgb(22, 30, 61, 0.2);
+  }
+  .nav-item-left {
+    width: 100%;
+    padding-left: 0%;
+    height: 10%;
+  }
+  .nav-right {
+    display: block;
+    width: 100%;
+  }
+  .nav-bar {
+    display: block;
+    width: 100%;
+    background-color: #243063;
+    color: white;
+    box-shadow: 0px 100px;
+  }
+  .dropdown-content {
+    position: relative;
+  }
+}
 
-.dropdown:hover .dropdown-content {display: block;}
+.small-hr {
+  width: 50%;
+  border: 3px dashed #161e3d;
+  border-radius: 5%;
+}
+
+.large-hr {
+  width: 100%;
+  border: 3px dashed #161e3d;
+  border-radius: 5%;
+}
+
+.rounded-img {
+  border-radius: 1rem;
+}
+
+.text_input {
+  background-color: #324286;
+  border: 1px solid #1e2852;
+}
+
+button {
+  background-color: #4d3a81;
+  font-size: 1rem;
+  padding: 0.25rem 1.5rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.dropdown-content a:hover {
+  background-color: #1e2852;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
 /* Kyle Sargeant */
 

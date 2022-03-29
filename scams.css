@@ -16,6 +16,8 @@
     flex-direction: column;
     max-width: 1200px;
     justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .scam_box {

@@ -3,3 +3,12 @@
     color: whitesmoke;
     width: 100%;
 }
+
+.learn_preview {
+    display: flex;
+}
+
+.learn_preview > img {
+    height: 128px;
+    width: 128px;
+}

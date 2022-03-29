@@ -1,0 +1,16 @@
+.content {
+    background-color: #1e2852;
+    color: whitesmoke;
+    width: 100%;
+}
+
+.whataretext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5%;
+}
+
+.whataretext img {
+    height: 20vh;
+}

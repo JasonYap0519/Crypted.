@@ -7,8 +7,8 @@
 .blog-header{
   display: flex;
   width: 100%;
-  height: 342px;
-  background-image: url("../Crypted/images/Dark-Blue_blog-header.png");
+  height: 125px;
+  background-image: url("images/Dark-Blue_blog-header-new.png");
   background-size: cover;
   background-repeat: no-repeat;
   align-items: center;
@@ -46,13 +46,13 @@
   padding-left: 8px;
   display: inline-block;
   height: 46px;
+  border-top: 1px solid #1e2852;
   background-color: #243063;
   position: sticky;
   top: 0px;
   align-items: center;
   font-size: x-large;
   text-align: center;
-  margin-bottom: 5px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -64,7 +64,6 @@
 
 #blog-text{
   font-size: x-large;
-  
 }
 
 
