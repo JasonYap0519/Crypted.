@@ -29,6 +29,7 @@
 .learn_preview a {
     width: 80%;
     max-width: 500px;
+    text-align: center;
 }
 
 .topic_information h1 {
@@ -37,7 +38,7 @@
 
 .topic_information{
     text-align: center;
-    width: 500px;
+    width: 390px;
     margin: 0 auto;
     margin-top: 2.5%;
 }
@@ -49,14 +50,18 @@
         flex-direction: row;
     }
 
-    .learn_preview a {
-        width: 500px;
+    .learn_preview > a {
+        width: 100%;
+        max-width: 512px;
+        text-align: center;
     }
 
-    .learn_preview h1 {
-        width: 300px;
+    .learn_preview > h1 {
+        width: 100%;
+        max-width: 256px;
+        text-align: center;
     }
-    .learn_preview img {
+    .learn_preview > img {
         width: 125px;
     }
 }

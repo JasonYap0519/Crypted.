@@ -35,6 +35,11 @@
         width: 512px;
     }
 }
+@media screen and (max-width: 512px) {
+    .terms {
+        width: 100%;
+    }
+}
 
 .definition_source{
     display: block;
