@@ -23,7 +23,6 @@
     height: 250px;
     width: 250px;
     display: inline-block;
-    position: relative;
     outline: 1px whitesmoke solid;
     margin-right: 1px;
 }
@@ -37,7 +36,6 @@
 
 .calendar_events {
     width: 100%;
-    position: absolute;
     bottom: 20px;
 }
 

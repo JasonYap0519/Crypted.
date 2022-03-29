@@ -14,3 +14,7 @@
 .whataretext img {
     height: 20vh;
 }
+
+.whataretext p {
+    max-width: 720px;
+}

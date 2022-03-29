@@ -23,6 +23,22 @@ h4 {
   margin-top: 1.5rem;
 }
 
+.who-we-are, .our-vision {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.who-we-are > h1 {
+  text-align: center;
+}
+
+.who-we-are > p {
+  text-align: center;
+  width: 512px;
+}
+
 .vision-list li {
   margin: 2rem 0;
   font-size: 1.5rem;
@@ -46,7 +62,12 @@ h4 {
 }
 
 .member-details h2 {
-  margin: 0;
+  margin: 0 auto;
+}
+
+.member img {
+  height: 256px;
+  width: 256px;
 }
 
 @media screen and (max-width: 768px) {
@@ -56,17 +77,20 @@ h4 {
 
   .member {
     display: flex;
+    flex-direction: column;
     flex-basis: auto;
     margin-bottom: 2rem;
   }
 
-  .member img {
+  .member > img {
     height: max-content;
+    border-radius: 5%;
   }
 
   .member-details {
     margin-left: 2rem;
   }
+  
 }
 
 @media screen and (max-width: 426px) {

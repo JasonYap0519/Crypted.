@@ -1,0 +1,382 @@
+/* GLOBAL STYLES */
+
+* {
+  box-sizing: border-box;
+  font-family: "Titillium Web";
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+}
+
+h1, h2 {
+  font-family: "Titillium Web", sans-serif;
+}
+
+/* JASON YAP */
+
+.content-div {
+  background-color: #1e2852;
+  padding: 0 7rem;
+  color: whitesmoke;
+}
+
+.content-div h1 {
+  margin-top: 0;
+  padding-top: 2rem;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.flex-content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.flex-child {
+  flex-basis: 30%;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.items img {
+  padding: 2rem;
+}
+
+.items p {
+  padding: 1rem 2rem 2rem 2rem;
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+.cryptocurrency {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 4rem 0;
+}
+
+.cryptocurrency div {
+  font-size: 2rem;
+  flex-basis: 45%;
+}
+
+.cryptocurrency div:nth-child(2) {
+  padding-left: 1rem;
+}
+
+.cryptocurrency p {
+  margin-top: 0;
+}
+
+.cryptocurrency a {
+  background-color: #4d3a81;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+/* KEVIN EMERY */
+
+.small_logo {
+  height: 46px;
+}
+
+.homepage_image {
+  width: 50%;
+}
+
+.main_image {
+  width: 350px;
+  filter: invert(100%);
+}
+
+.nav-bar {
+  display: flex;
+  width: 100%;
+  height: 15vh;
+  background-color: #243063;
+  color: white;
+  box-shadow: 0px 100px;
+}
+
+.nav-item {
+  display: flex;
+  height: 15vh;
+  font-size: 3.5rem;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.nav-item:hover {
+  color: white;
+  font-weight: bold;
+}
+
+.nav-left {
+  float: left;
+  width: 33%;
+}
+
+.nav-item-left {
+  padding-left: 5%;
+  font-weight: bold;
+  text-shadow: 1px 5px 0px rgba(0, 0, 0, 0.2);
+  width: 25%;
+}
+
+.nav-right {
+  display: flex;
+  flex-direction: row;
+  width: 66%;
+}
+
+.nav-item-right {
+  float: right;
+  margin-left: 5%;
+  width: 33%;
+  font-size: 2rem;
+  text-shadow: 1px 3px 0px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #2d3b79;
+  margin: 0 auto;
+  width: 100%;
+  text-shadow: 1px 3px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 5px;
+  border: 1px solid rgb(22, 30, 61);
+}
+
+.dropdown {
+  top: 40%;
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content a {
+  color: whitesmoke;
+  text-decoration: none;
+  display: block;
+  border: 1px solid rgb(22, 30, 61, 0.2);
+}
+
+@media screen and (max-width: 1200px) {
+  .nav-left {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+  .nav-item-right {
+    width: 100%;
+    background-color: #202a57;
+    margin-right: 0%;
+    height: 5%;
+    border: 1px solid rgb(22, 30, 61, 0.2);
+  }
+  .nav-item-left {
+    width: 100%;
+    padding-left: 0%;
+    height: 10%;
+  }
+  .nav-right {
+    display: block;
+    width: 100%;
+  }
+  .nav-bar {
+    display: block;
+    width: 100%;
+    background-color: #243063;
+    color: white;
+    box-shadow: 0px 100px;
+  }
+  .dropdown-content {
+    position: relative;
+  }
+}
+
+.small-hr {
+  width: 50%;
+  border: 3px dashed #161e3d;
+  border-radius: 5%;
+}
+
+.large-hr {
+  width: 100%;
+  border: 3px dashed #161e3d;
+  border-radius: 5%;
+}
+
+.rounded-img {
+  border-radius: 1rem;
+}
+
+.text_input {
+  background-color: #324286;
+  border: 1px solid #1e2852;
+}
+
+button {
+  background-color: #4d3a81;
+  font-size: 1rem;
+  padding: 0.25rem 1.5rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.dropdown-content a:hover {
+  background-color: #1e2852;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Kyle Sargeant */
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  flex-flow: row wrap;
+  gap: 1.5rem;
+  width: 100%;
+  height: 40vh;
+  align-content: center;
+  padding: 2vh 5rem;
+  color: whitesmoke;
+  background-color: #243063;
+}
+
+#footer_crypto,
+#footer_about,
+#footer_NFT,
+#footer_signup {
+  justify-self: center;
+}
+
+/* # for div id's . for classes id */
+#footer_crypto_ul ul,
+#footer_NFT_ul ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#footer_crypto_ul ul li,
+#footer_NFT_ul ul li {
+  margin-bottom: 0.75rem;
+}
+
+#footer_crypto_ul ul li a,
+#footer_NFT_ul ul li a {
+  color: whitesmoke;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* added media queries here */
+@media screen and (max-width: 1024px) {
+  .cryptocurrency div {
+    flex-basis: auto;
+    order: 1;
+    text-align: center;
+  }
+
+  .cryptocurrency div:nth-child(2) {
+    padding-left: 0;
+  }
+
+  .rounded-img {
+    width: 100%;
+  }
+
+  #footer_about {
+    grid-area: about;
+  }
+
+  #footer_crypto {
+    grid-area: crypto;
+    justify-self: start;
+  }
+
+  #footer_NFT {
+    grid-area: NFT;
+    justify-self: start;
+  }
+
+  #footer_signup {
+    grid-area: signup;
+    justify-self: start;
+  }
+
+  .footer {
+    grid-template-areas:
+      "about about"
+      "crypto NFT"
+      "signup signup";
+    grid-template-columns: 1fr 1fr;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .items p {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .content-div {
+    padding: 0 1rem;
+  }
+
+  .content-div h1 {
+    font-size: 2rem;
+  }
+
+  .items img {
+    width: 300px;
+  }
+
+  .cryptocurrency div {
+    font-size: 1.5rem;
+  }
+
+  .cryptocurrency p {
+    margin-bottom: 2rem;
+  }
+
+  .footer {
+    grid-template-areas:
+      "about"
+      "crypto"
+      "NFT"
+      "signup";
+    grid-template-columns: 1fr;
+    padding: 2vh 3rem;
+  }
+}
+
+.definition_source{
+  display: block;
+  width: 100px;
+  margin: 0 auto;
+  color: whitesmoke;
+}

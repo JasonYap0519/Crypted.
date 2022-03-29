@@ -26,6 +26,7 @@
 
 .scam_box > img {
     border-radius: 12px;
+    max-height: 512px;
 }
 
 .scam_box > p {
