@@ -1,0 +1,16 @@
+
+.expectation-item {
+    margin: 10px;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.expectation {
+    font-weight: bold;
+    text-indent: 24px;
+    padding-bottom: 5px;
+}
+
+.explanation > a{
+    color: whitesmoke;
+}
