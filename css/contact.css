@@ -21,7 +21,7 @@
 }
 
 .contact-title h1 {
-  font-size: 5rem;
+  font-size: 6rem;
   margin: 0;
 }
 
@@ -101,6 +101,10 @@
 @media screen and (max-width: 426px) {
   .contact-title {
     padding: 0 1rem;
+  }
+
+  .contact-title h1 {
+    font-size: 5rem;
   }
 
   .form-row {
