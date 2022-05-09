@@ -17,24 +17,24 @@
     <nav class="nav">
       <div class="nav-bar">
         <div class="nav-left">
-          <div class="brand-name nav-item nav-item-left" onclick="location.href='index.html';"> Crypted. </div>
+          <div class="brand-name nav-item nav-item-left" onclick="location.href='index.php';"> Crypted. </div>
         </div>
         <div class="nav-right">
-          <div class="nav-item nav-item-right dropdown" onclick="location.href='aboutus.html';"> About Us <div class="dropdown-content">
-              <a href="contactus.html">Contact Us</a>
+          <div class="nav-item nav-item-right dropdown" onclick="location.href='aboutus.php';"> About Us <div class="dropdown-content">
+              <a href="contactus.php">Contact Us</a>
             </div>
           </div>
-          <div class="nav-item nav-item-right dropdown" onclick="location.href='learnnfts.html';"> Learn NFTs <div class="dropdown-content">
-              <a href="whatarenfts.html">What are NFTs?</a>
-              <a href="commonnftterms.html">Common NFT Terms</a>
-              <a href="commonnftscams.html">Common NFT Scams</a>
-              <a href="thisweekinnfts.html">This Week in NFTs</a>
+          <div class="nav-item nav-item-right dropdown" onclick="location.href='learnnfts.php';"> Learn NFTs <div class="dropdown-content">
+              <a href="whatarenfts.php">What are NFTs?</a>
+              <a href="commonnftterms.php">Common NFT Terms</a>
+              <a href="commonnftscams.php">Common NFT Scams</a>
+              <a href="thisweekinnfts.php">This Week in NFTs</a>
             </div>
           </div>
-          <div class="nav-item nav-item-right dropdown" onclick="location.href='learncrypto.html';"> Learn Crypto <div class="dropdown-content">
-              <a href="whatarecryptocurrencies.html">What are Cryptocurrencies?</a>
-              <a href="commoncryptoterms.html">Common Crypto Terms</a>
-              <a href="commoncryptoscams.html">Common Crypto Scams</a>
+          <div class="nav-item nav-item-right dropdown" onclick="location.href='learncrypto.php';"> Learn Crypto <div class="dropdown-content">
+              <a href="whatarecryptocurrencies.php">What are Cryptocurrencies?</a>
+              <a href="commoncryptoterms.php">Common Crypto Terms</a>
+              <a href="commoncryptoscams.php">Common Crypto Scams</a>
             </div>
           </div>
         </div>
@@ -79,19 +79,19 @@
         <div id="footer_NFT_ul">
           <ul>
             <li>
-              <a href="learnnfts.html">Learn NFTs</a>
+              <a href="learnnfts.php">Learn NFTs</a>
             </li>
             <li>
-              <a href="whatarenfts.html">What are NFTs?</a>
+              <a href="whatarenfts.php">What are NFTs?</a>
             </li>
             <li>
-              <a href="commonnftterms.html">Common NFT Terms</a>
+              <a href="commonnftterms.php">Common NFT Terms</a>
             </li>
             <li>
-              <a href="commonnftscams.html">Common NFT Scams</a>
+              <a href="commonnftscams.php">Common NFT Scams</a>
             </li>
             <li>
-              <a href="thisweekinnfts.html">This Week in NFTs</a>
+              <a href="thisweekinnfts.php">This Week in NFTs</a>
             </li>
           </ul>
         </div>
@@ -101,28 +101,23 @@
         <div id="footer_crypto_ul">
           <ul>
             <li>
-              <a href="learncrypto.html">Learn Crypto</a>
+              <a href="learncrypto.php">Learn Crypto</a>
             </li>
             <li>
-              <a href="whatarecryptocurrencies.html">What are Cryptocurrencies?</a>
+              <a href="whatarecryptocurrencies.php">What are Cryptocurrencies?</a>
             </li>
             <li>
-              <a href="commoncryptoterms.html">Common Crypto Terms</a>
+              <a href="commoncryptoterms.php">Common Crypto Terms</a>
             </li>
             <li>
-              <a href="commoncryptoscams.html">Common Crypto Scams</a>
+              <a href="commoncryptoscams.php">Common Crypto Scams</a>
             </li>
           </ul>
         </div>
       </div>
-      <div id="footer_signup">
-        <h2>Sign up now and get updates from our newsletter.</h2> Our newsletter delivers once a week. <br />
-        <label for="email_input">Your Email:</label>
-        <input class="text_input" type="text" id="email_input" name="fname" />
-        <br />
-        <br />
-        <button onclick="document.getElementById('email_input').value = ''"> Submit </button>
-      </div>
+      <?php
+        include("newsletter.php")
+      ?>
     </footer>
   </body>
 </html>
