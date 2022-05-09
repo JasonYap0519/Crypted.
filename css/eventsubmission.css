@@ -1,0 +1,109 @@
+.event-submission-div {
+    background-color: #1e2852;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 1rem;
+}
+
+.eventSubmission {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5rem;
+    width: 100%;
+    padding: 2rem 0;
+}
+
+.EventSubmission-title {
+    padding-top: 6rem;
+}
+
+.EventSubmission-title h1 {
+    font-size: 6rem;
+    margin: 0;
+}
+
+.Eventsubmission-title h6 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.Event-form {
+    flex-basis: 50%;
+}
+
+.flex-form {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.form-row {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.form-row label {
+    display: block;
+}
+
+.form-row input {
+    background-color: transparent;
+    border: none;
+    color: whitesmoke;
+    border-bottom: solid lightgray 2px;
+    width: 100%;
+    height: 2rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.form-row input:focus {
+    outline: none;
+}
+
+.form-row textarea {
+    background-color: transparent;
+    color: whitesmoke;
+    border: solid lightgray 2px;
+    border-radius: 0.25rem;
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    resize: none;
+}
+
+
+#blockchaintype-input,#date,#time,#meridianType-input,#eventTitle {
+    flex-basis: 50%;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .eventSubmission {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .Eventsubmission-title {
+        padding-top: 3rem;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .Eventsubmission-title {
+        padding: 0 1rem;
+    }
+
+    .Eventsubmission-title h1 {
+        font-size: 5rem;
+    }
+
+    .form-row {
+        flex-direction: column;
+    }
+}
