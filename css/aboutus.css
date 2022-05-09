@@ -1,5 +1,4 @@
-h1,
-p {
+h1 {
   margin: 0;
 }
 
@@ -23,7 +22,8 @@ h4 {
   margin-top: 1.5rem;
 }
 
-.who-we-are, .our-vision {
+.who-we-are,
+.our-vision {
   display: flex;
   width: 100%;
   align-items: center;
@@ -91,6 +91,10 @@ h4 {
   width: 256px;
 }
 
+.member-details p {
+  margin: 0;
+}
+
 @media screen and (max-width: 768px) {
   .about-section {
     padding: 3rem 5rem;
@@ -114,7 +118,6 @@ h4 {
   .who-we-are > p {
     width: 100%;
   }
-  
 }
 
 @media screen and (max-width: 426px) {
@@ -143,5 +146,4 @@ h4 {
     margin-top: 1rem;
     margin-left: 0;
   }
-  
 }
