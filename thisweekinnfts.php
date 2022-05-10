@@ -41,7 +41,8 @@
           include('nftcalendar.php');
         ?>
         <div class="contactus_link">
-          <a> Please contact us if you'd like to add your own event to the page! </a>
+          <a onclick="location.href='eventsubmission.php';" onMouseOver="this.style.textDecoration ='underline'"
+              onMouseOut="this.style.textDecoration ='none'"> Please click here if you'd like to add your own event to the page! </a>
         </div>
       </div>
     </div>

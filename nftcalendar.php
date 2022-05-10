@@ -75,7 +75,9 @@
             "blockchain" => $row["blockchain"],
             "time" => gmdate("g:i a", $row["unix_timestamp"])
         );
-        array_push($calendar_information[$date],$obj);
+        if( array_key_exists($date, $calendar_information) ){
+            array_push($calendar_information[$date],$obj);
+        }
     }
 
     $html_export = '<div class="calendar">';
