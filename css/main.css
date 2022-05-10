@@ -237,6 +237,7 @@ h2 {
 .text_input {
   background-color: #324286;
   border: 1px solid #1e2852;
+  color: whitesmoke;
 }
 
 button {
