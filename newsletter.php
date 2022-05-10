@@ -4,7 +4,7 @@
     $message = '';
 	
 	if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-		if( $_POST['newsletter_email_to_submit'] != "" ){
+		if( array_key_exists('newsletter_email_to_submit', $_POST) ){
 
             $sql = "SELECT table_name
                 FROM information_schema.tables

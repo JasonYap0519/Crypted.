@@ -45,28 +45,26 @@
     text-align: center;
 }
 
-@media screen and (max-width: 938px) {
-    .calendar {
-        flex-direction: column;
-    }
-    .calendar_holder{
-        flex-direction: row;
-        align-items: center;
-        width: 100%;
-        height: 100px;
-    }
+.calendar {
+    flex-direction: column;
+}
+.calendar_holder{
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
 
-    .calendar_date {
-        width: 100%;
-        top: 50%;
-        vertical-align: center;
-    }
-    .calendar_events {
-        right: 0%;
-        width: 100%;
-        bottom: 0px;
-        border-left: 1px whitesmoke solid;
-    }
+.calendar_date {
+    width: 100%;
+    top: 50%;
+    vertical-align: center;
+}
+.calendar_events {
+    right: 0%;
+    width: 100%;
+    bottom: 0px;
+    border-left: 1px whitesmoke solid;
 }
 
 .contactus_link{

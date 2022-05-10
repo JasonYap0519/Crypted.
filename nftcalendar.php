@@ -17,6 +17,12 @@
             title varchar(64),
             unix_timestamp int(11), PRIMARY KEY (Id)
             );";
+        if(mysqli_query($dbc, $sql)){
+
+        }
+        else{
+            echo "FAILED TO MAKE DB?";
+        }
     }
 
     $sql = "SELECT * 
@@ -26,11 +32,11 @@
     if($res->num_rows == 0){
         if(mysqli_query($dbc, $sql)){
             $sql = "INSERT INTO nftcalendar (blockchain,title,unix_timestamp) VALUES
-                ('ETH','CryptoPunks', 1648463640),
-                ('ETH','World of Women Galaxy Mint', 1648636440),
-                ('SOL','Krakenz Mint', 1648636440),
-                ('ETH','World of Women Galaxy Reveal', 1648722840),
-                ('SOL','The Bubble Pops', 1648982040);";
+                ('ETH','CryptoPunks', 1652210837),
+                ('ETH','World of Women Galaxy Mint', 1652470037),
+                ('SOL','Krakenz Mint', 1652485637),
+                ('ETH','World of Women Galaxy Reveal', 1652547600),
+                ('SOL','The Bubble Pops', 1652655600);";
             if(mysqli_query($dbc, $sql)){
                 
             }
@@ -97,13 +103,15 @@
 
 ?>
 
-<div>
-    <form action="<?php $_PHP_SELF ?>" method="post">
-        <label for="start">Week of:</label>
-        <input type="date" id="start" name="calendar-start"
-            value="<?php echo gmdate("Y-m-d", $start_date)?>"
-            min="2022-04-05" max="2022-05-31">
-        <button type="submit">Search</button>
-    </form>
-    <?php echo $html_export; ?>
-</div>
+<center>
+    <div>
+        <form action="<?php $_PHP_SELF ?>" method="post">
+            <label for="start">Week of:</label>
+            <input type="date" id="start" name="calendar-start"
+                value="<?php echo gmdate("Y-m-d", $start_date)?>"
+                min="2022-04-05" max="2022-05-31">
+            <button type="submit">Search</button>
+        </form>
+        <?php echo $html_export; ?>
+    </div>
+</center>
